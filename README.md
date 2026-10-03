@@ -1,5 +1,5 @@
 # fastapi-pricing-service
-Un microservice backend asynchrone et léger développé avec Python et FastAPI pour récupérer, calculer et exposer des indicateurs de prix de marché en temps réel. L'application interroge des sources de cotations financières externes à l'aide d'un client HTTP non bloquant, valide rigoureusement chaque transaction avec Pydantic et optimise le temps de réponse grâce à un cache mémoire intégré avec expiration temporelle (TTL).
+Un microservice backend asynchrone et léger développé avec Python et FastAPI pour récupérer, calculer et exposer des indicateurs de prix de marché en temps réel. L'application interroge des sources de cotations financières externes à l'aide d'un client HTTP non bloquant, valide chaque transaction avec Pydantic et optimise le temps de réponse grâce à un cache mémoire intégré avec expiration temporelle (TTL).
 
 ## Fonctionnalités
 - Récupération asynchrone des cours de marché via des requêtes HTTP non bloquantes (`httpx`).
